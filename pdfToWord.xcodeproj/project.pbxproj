@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DB33C5785E362260014EFC7 /* Pods_pdfToWord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9680F591D8A4A7FE6C5CE8B4 /* Pods_pdfToWord.framework */; };
+		221F11407AE900EF147C384F /* Pods_pdfToWordTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0198A6C247604EEEF64A029C /* Pods_pdfToWordTests.framework */; };
+		7008B0812DC1E73900B7D196 /* OfficeFileReader in Frameworks */ = {isa = PBXBuildFile; productRef = 7008B0802DC1E73900B7D196 /* OfficeFileReader */; };
+		C8DFA8F9B089F294A91BF063 /* Pods_pdfToWord_pdfToWordUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA2CE4EA61AE346126DC802 /* Pods_pdfToWord_pdfToWordUITests.framework */; };
+		F818776C2DC1188300899D3C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F818776B2DC1188300899D3C /* Podfile */; };
+		F81877C52DC13B6F00899D3C /* OfficeFileReader in Frameworks */ = {isa = PBXBuildFile; productRef = F81877C42DC13B6F00899D3C /* OfficeFileReader */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F818774E2DC10E5200899D3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F818772F2DC10E5000899D3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81877362DC10E5100899D3C;
+			remoteInfo = pdfToWord;
+		};
+		F81877582DC10E5200899D3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F818772F2DC10E5000899D3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81877362DC10E5100899D3C;
+			remoteInfo = pdfToWord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0198A6C247604EEEF64A029C /* Pods_pdfToWordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pdfToWordTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09EFF385B831435E46A3F57A /* Pods-pdfToWord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pdfToWord.release.xcconfig"; path = "Target Support Files/Pods-pdfToWord/Pods-pdfToWord.release.xcconfig"; sourceTree = "<group>"; };
+		451B5BCA07FF8B6DE6DF91E4 /* Pods-pdfToWord-pdfToWordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pdfToWord-pdfToWordUITests.debug.xcconfig"; path = "Target Support Files/Pods-pdfToWord-pdfToWordUITests/Pods-pdfToWord-pdfToWordUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D0108251EF4A0451D96CBE0 /* Pods-pdfToWord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pdfToWord.debug.xcconfig"; path = "Target Support Files/Pods-pdfToWord/Pods-pdfToWord.debug.xcconfig"; sourceTree = "<group>"; };
+		4EA2CE4EA61AE346126DC802 /* Pods_pdfToWord_pdfToWordUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pdfToWord_pdfToWordUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F031F804BDA750AE1FB7AA2 /* Pods-pdfToWord-pdfToWordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pdfToWord-pdfToWordUITests.release.xcconfig"; path = "Target Support Files/Pods-pdfToWord-pdfToWordUITests/Pods-pdfToWord-pdfToWordUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8A2136EDE6A4B7878A0E5BA3 /* Pods-pdfToWordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pdfToWordTests.release.xcconfig"; path = "Target Support Files/Pods-pdfToWordTests/Pods-pdfToWordTests.release.xcconfig"; sourceTree = "<group>"; };
+		9680F591D8A4A7FE6C5CE8B4 /* Pods_pdfToWord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pdfToWord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABEDB9C5BF9439A9E9DB149 /* Pods-pdfToWordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pdfToWordTests.debug.xcconfig"; path = "Target Support Files/Pods-pdfToWordTests/Pods-pdfToWordTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F81877372DC10E5100899D3C /* pdfToWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pdfToWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F818774D2DC10E5200899D3C /* pdfToWordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfToWordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81877572DC10E5200899D3C /* pdfToWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfToWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F818776B2DC1188300899D3C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F818775F2DC10E5200899D3C /* Exceptions for "pdfToWord" folder in "pdfToWord" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F81877362DC10E5100899D3C /* pdfToWord */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F81877392DC10E5100899D3C /* pdfToWord */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F818775F2DC10E5200899D3C /* Exceptions for "pdfToWord" folder in "pdfToWord" target */,
+			);
+			path = pdfToWord;
+			sourceTree = "<group>";
+		};
+		F81877502DC10E5200899D3C /* pdfToWordTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = pdfToWordTests;
+			sourceTree = "<group>";
+		};
+		F818775A2DC10E5200899D3C /* pdfToWordUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = pdfToWordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F81877342DC10E5100899D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7008B0812DC1E73900B7D196 /* OfficeFileReader in Frameworks */,
+				0DB33C5785E362260014EFC7 /* Pods_pdfToWord.framework in Frameworks */,
+				F81877C52DC13B6F00899D3C /* OfficeFileReader in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F818774A2DC10E5200899D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221F11407AE900EF147C384F /* Pods_pdfToWordTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81877542DC10E5200899D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DFA8F9B089F294A91BF063 /* Pods_pdfToWord_pdfToWordUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05BC9769135B5B54512B9689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9680F591D8A4A7FE6C5CE8B4 /* Pods_pdfToWord.framework */,
+				4EA2CE4EA61AE346126DC802 /* Pods_pdfToWord_pdfToWordUITests.framework */,
+				0198A6C247604EEEF64A029C /* Pods_pdfToWordTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11ABE4AE47D173FCD03CAB96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D0108251EF4A0451D96CBE0 /* Pods-pdfToWord.debug.xcconfig */,
+				09EFF385B831435E46A3F57A /* Pods-pdfToWord.release.xcconfig */,
+				451B5BCA07FF8B6DE6DF91E4 /* Pods-pdfToWord-pdfToWordUITests.debug.xcconfig */,
+				7F031F804BDA750AE1FB7AA2 /* Pods-pdfToWord-pdfToWordUITests.release.xcconfig */,
+				DABEDB9C5BF9439A9E9DB149 /* Pods-pdfToWordTests.debug.xcconfig */,
+				8A2136EDE6A4B7878A0E5BA3 /* Pods-pdfToWordTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F818772E2DC10E5000899D3C = {
+			isa = PBXGroup;
+			children = (
+				F81877392DC10E5100899D3C /* pdfToWord */,
+				F81877502DC10E5200899D3C /* pdfToWordTests */,
+				F818775A2DC10E5200899D3C /* pdfToWordUITests */,
+				F81877382DC10E5100899D3C /* Products */,
+				F818776B2DC1188300899D3C /* Podfile */,
+				11ABE4AE47D173FCD03CAB96 /* Pods */,
+				05BC9769135B5B54512B9689 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F81877382DC10E5100899D3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F81877372DC10E5100899D3C /* pdfToWord.app */,
+				F818774D2DC10E5200899D3C /* pdfToWordTests.xctest */,
+				F81877572DC10E5200899D3C /* pdfToWordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F81877362DC10E5100899D3C /* pdfToWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81877602DC10E5200899D3C /* Build configuration list for PBXNativeTarget "pdfToWord" */;
+			buildPhases = (
+				B74E4BA2EC50A303F6919C9F /* [CP] Check Pods Manifest.lock */,
+				F81877332DC10E5100899D3C /* Sources */,
+				F81877342DC10E5100899D3C /* Frameworks */,
+				F81877352DC10E5100899D3C /* Resources */,
+				1D47AE31B132679F5A4B2BFF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F81877392DC10E5100899D3C /* pdfToWord */,
+			);
+			name = pdfToWord;
+			productName = pdfToWord;
+			productReference = F81877372DC10E5100899D3C /* pdfToWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F818774C2DC10E5200899D3C /* pdfToWordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81877652DC10E5200899D3C /* Build configuration list for PBXNativeTarget "pdfToWordTests" */;
+			buildPhases = (
+				DAAD5084E3D2BE0FA41E4497 /* [CP] Check Pods Manifest.lock */,
+				F81877492DC10E5200899D3C /* Sources */,
+				F818774A2DC10E5200899D3C /* Frameworks */,
+				F818774B2DC10E5200899D3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F818774F2DC10E5200899D3C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F81877502DC10E5200899D3C /* pdfToWordTests */,
+			);
+			name = pdfToWordTests;
+			productName = pdfToWordTests;
+			productReference = F818774D2DC10E5200899D3C /* pdfToWordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F81877562DC10E5200899D3C /* pdfToWordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81877682DC10E5200899D3C /* Build configuration list for PBXNativeTarget "pdfToWordUITests" */;
+			buildPhases = (
+				3E44BCB0F62D2C2A51AAEE78 /* [CP] Check Pods Manifest.lock */,
+				F81877532DC10E5200899D3C /* Sources */,
+				F81877542DC10E5200899D3C /* Frameworks */,
+				F81877552DC10E5200899D3C /* Resources */,
+				A62C268E6A46FC030AC845D5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F81877592DC10E5200899D3C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F818775A2DC10E5200899D3C /* pdfToWordUITests */,
+			);
+			name = pdfToWordUITests;
+			productName = pdfToWordUITests;
+			productReference = F81877572DC10E5200899D3C /* pdfToWordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F818772F2DC10E5000899D3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					F81877362DC10E5100899D3C = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					F818774C2DC10E5200899D3C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F81877362DC10E5100899D3C;
+					};
+					F81877562DC10E5200899D3C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F81877362DC10E5100899D3C;
+					};
+				};
+			};
+			buildConfigurationList = F81877322DC10E5000899D3C /* Build configuration list for PBXProject "pdfToWord" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F818772E2DC10E5000899D3C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7008B07F2DC1E73900B7D196 /* XCLocalSwiftPackageReference "../../../../../../../../../../../../../../Downloads/OfficeFileReader-master" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F81877382DC10E5100899D3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F81877362DC10E5100899D3C /* pdfToWord */,
+				F818774C2DC10E5200899D3C /* pdfToWordTests */,
+				F81877562DC10E5200899D3C /* pdfToWordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F81877352DC10E5100899D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F818776C2DC1188300899D3C /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F818774B2DC10E5200899D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81877552DC10E5200899D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D47AE31B132679F5A4B2BFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pdfToWord/Pods-pdfToWord-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pdfToWord/Pods-pdfToWord-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pdfToWord/Pods-pdfToWord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E44BCB0F62D2C2A51AAEE78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pdfToWord-pdfToWordUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A62C268E6A46FC030AC845D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pdfToWord-pdfToWordUITests/Pods-pdfToWord-pdfToWordUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pdfToWord-pdfToWordUITests/Pods-pdfToWord-pdfToWordUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pdfToWord-pdfToWordUITests/Pods-pdfToWord-pdfToWordUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B74E4BA2EC50A303F6919C9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pdfToWord-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAAD5084E3D2BE0FA41E4497 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pdfToWordTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F81877332DC10E5100899D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81877492DC10E5200899D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81877532DC10E5200899D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F818774F2DC10E5200899D3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F81877362DC10E5100899D3C /* pdfToWord */;
+			targetProxy = F818774E2DC10E5200899D3C /* PBXContainerItemProxy */;
+		};
+		F81877592DC10E5200899D3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F81877362DC10E5100899D3C /* pdfToWord */;
+			targetProxy = F81877582DC10E5200899D3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F81877612DC10E5200899D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0108251EF4A0451D96CBE0 /* Pods-pdfToWord.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB8V9E83S3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pdfToWord/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpeng.person.pdfToWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F81877622DC10E5200899D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09EFF385B831435E46A3F57A /* Pods-pdfToWord.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB8V9E83S3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pdfToWord/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpeng.person.pdfToWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F81877632DC10E5200899D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QB8V9E83S3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F81877642DC10E5200899D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QB8V9E83S3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F81877662DC10E5200899D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DABEDB9C5BF9439A9E9DB149 /* Pods-pdfToWordTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB8V9E83S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpeng.person.pdfToWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pdfToWord.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pdfToWord";
+			};
+			name = Debug;
+		};
+		F81877672DC10E5200899D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2136EDE6A4B7878A0E5BA3 /* Pods-pdfToWordTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB8V9E83S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpeng.person.pdfToWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pdfToWord.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pdfToWord";
+			};
+			name = Release;
+		};
+		F81877692DC10E5200899D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 451B5BCA07FF8B6DE6DF91E4 /* Pods-pdfToWord-pdfToWordUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB8V9E83S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpeng.person.pdfToWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pdfToWord;
+			};
+			name = Debug;
+		};
+		F818776A2DC10E5200899D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F031F804BDA750AE1FB7AA2 /* Pods-pdfToWord-pdfToWordUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB8V9E83S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpeng.person.pdfToWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pdfToWord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F81877322DC10E5000899D3C /* Build configuration list for PBXProject "pdfToWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81877632DC10E5200899D3C /* Debug */,
+				F81877642DC10E5200899D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81877602DC10E5200899D3C /* Build configuration list for PBXNativeTarget "pdfToWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81877612DC10E5200899D3C /* Debug */,
+				F81877622DC10E5200899D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81877652DC10E5200899D3C /* Build configuration list for PBXNativeTarget "pdfToWordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81877662DC10E5200899D3C /* Debug */,
+				F81877672DC10E5200899D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81877682DC10E5200899D3C /* Build configuration list for PBXNativeTarget "pdfToWordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81877692DC10E5200899D3C /* Debug */,
+				F818776A2DC10E5200899D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		7008B07F2DC1E73900B7D196 /* XCLocalSwiftPackageReference "../../../../../../../../../../../../../../Downloads/OfficeFileReader-master" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../../../../../../../../../../../../Downloads/OfficeFileReader-master";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F81877C32DC13B6F00899D3C /* XCRemoteSwiftPackageReference "OfficeFileReader" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hughbe/OfficeFileReader";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7008B0802DC1E73900B7D196 /* OfficeFileReader */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OfficeFileReader;
+		};
+		F81877C42DC13B6F00899D3C /* OfficeFileReader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F81877C32DC13B6F00899D3C /* XCRemoteSwiftPackageReference "OfficeFileReader" */;
+			productName = OfficeFileReader;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F818772F2DC10E5000899D3C /* Project object */;
+}

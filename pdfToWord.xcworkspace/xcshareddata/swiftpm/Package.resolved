@@ -1,0 +1,96 @@
+{
+  "originHash" : "890de6c1c217fc95ba7c940847625fbc3ff044312c7017f4881edbaba92d3ec7",
+  "pins" : [
+    {
+      "identity" : "compoundfilereader",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hughbe/CompoundFileReader",
+      "state" : {
+        "revision" : "b7eb9fa8282737dce65069b2c3ae39a446013c98",
+        "version" : "1.0.11"
+      }
+    },
+    {
+      "identity" : "datacompression",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mw99/DataCompression",
+      "state" : {
+        "revision" : "5ab15951321b08b74511601cbd0497667649d70b",
+        "version" : "3.8.0"
+      }
+    },
+    {
+      "identity" : "datastream",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hughbe/DataStream",
+      "state" : {
+        "revision" : "755814222d05056db30936aeb45c3b4bf46ac2c0",
+        "version" : "2.0.4"
+      }
+    },
+    {
+      "identity" : "oleautomationdatatypes",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hughbe/OleAutomationDataTypes",
+      "state" : {
+        "revision" : "0fa5feac6b60c20c24b2426ef49dfe4b3689fbed",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "oledatatypes",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hughbe/OleDataTypes",
+      "state" : {
+        "revision" : "2cc4adb25e694b27b04f755194e53603ba36d265",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "olepropertyset",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hughbe/OlePropertySet",
+      "state" : {
+        "revision" : "530d0959e74b5da84264aa10b39cbf499b55ddab",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "swiftbitfield",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hughbe/SwiftBitField",
+      "state" : {
+        "revision" : "993f2e4ec4d4edfc598abd3e87cc813e937cffc1",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "vbafilereader",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hughbe/VBAFileReader",
+      "state" : {
+        "revision" : "1d6bfe8306e8e3935bd72c13ea27532948571083",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "windowsdatatypes",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hughbe/WindowsDataTypes",
+      "state" : {
+        "revision" : "ca9fa5609840dca9846ee2f959f214f6dc24fe33",
+        "version" : "1.0.11"
+      }
+    },
+    {
+      "identity" : "wmfreader",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hughbe/WmfReader",
+      "state" : {
+        "revision" : "760baedbaed9f479a0e4b04a0504c7c797baeb92",
+        "version" : "1.0.4"
+      }
+    }
+  ],
+  "version" : 3
+}

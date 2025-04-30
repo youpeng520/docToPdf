@@ -1,0 +1,1182 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036846BA06C4336081147D93CC478D10 /* FileManager+ZIPDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6054187F0FC08CCEB0699BBA88444177 /* FileManager+ZIPDeprecated.swift */; };
+		0388BDBD77962DE782679602D5EC7A49 /* Data+Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169C467908AD4C7FA1DC4AC8ED45ACDA /* Data+Compression.swift */; };
+		05A4D0F106CAA2F3DCC96FC78B7A0F9C /* Date+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1AADB3DE7ADD14347355577BE91D9E /* Date+ZIP.swift */; };
+		21F2D71EB22BA5D259923A81A6A5D6AE /* Archive+ZIP64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FCB2D12E5246510195E436139DB8AA /* Archive+ZIP64.swift */; };
+		2334CF2903BCFD2EFDE8919F056CDE35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		2D217D4BCFD4F5301A9F05E16B6A2C49 /* FileManager+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = C107C127DB04AC9FD8E862F20F318CC3 /* FileManager+ZIP.swift */; };
+		42149CEDD7020FBC14F82BFCF0A5C909 /* ZIPFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC27ED66B94A6B66C35BA6007D3837A /* ZIPFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49096CF50D9BE4C8FE6BA5F3D902B9C4 /* Archive+Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01B841C8529A4288DD0BA9E95EA697 /* Archive+Reading.swift */; };
+		4C245F981B92EE4980437CB5B6C1F011 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 56CAF29D16DD8AA49A22929E948F5B19 /* PrivacyInfo.xcprivacy */; };
+		5058C9BA3625BF80A384C425E0611502 /* URL+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8526DEC9AAAB6B1556DFAD342853A6 /* URL+ZIP.swift */; };
+		51F8C5021BE9EB58D25B9AE911E7B8DD /* Entry+ZIP64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3C8933D15B76A43605503A8C3C5EFD /* Entry+ZIP64.swift */; };
+		53881D9888F2FA8BDD9400B61B3E11B0 /* Pods-pdfToWord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE14CB970E6EB6BF7A34A3CFA4A806C /* Pods-pdfToWord-dummy.m */; };
+		6727AADE121F212E0A725E4FACCD034A /* Pods-pdfToWord-pdfToWordUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B94C0B83BB6B3983DBA451742C349A /* Pods-pdfToWord-pdfToWordUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AF03D466F2C80C797CBFA247C738983 /* ZIPFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E291A87C19E4CA5811EF189D9F85CB1 /* ZIPFoundation-dummy.m */; };
+		70528725801FF1FA378E9FB300671C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		779C581697616D308DE475CDE9B01444 /* Pods-pdfToWord-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D557CB090106997B25979CC41D8CB322 /* Pods-pdfToWord-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E7B0DD63549CD1CB50117A1D279CE40 /* Entry+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0B99762E25D9D9C61FC9AF49D739C /* Entry+Serialization.swift */; };
+		80AE3BF61AA2162772C664C77899D4FA /* Archive+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B161F9A55BF327B9F7021C3533E6F22 /* Archive+Helpers.swift */; };
+		867C2BE33C85E9B708AF4129CABDA419 /* Archive+MemoryFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D9DB7DD896726ABFC970778599A591 /* Archive+MemoryFile.swift */; };
+		947A2890672348E60E06501C7D04C614 /* Pods-pdfToWordTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A11DBC286CCD72F08ED399CCACB634 /* Pods-pdfToWordTests-dummy.m */; };
+		95C3C623717402D1643E29BCB1D75F71 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B70F0F563A3533C0BF5716C74A9702 /* Archive.swift */; };
+		9AA1E2A66A84A0D5EF84E0B6160465EC /* Archive+BackingConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA049EE4F1EA9C5FD0874D1665DE940 /* Archive+BackingConfiguration.swift */; };
+		9AA7E26C5602923B0453E3BF8143C4D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		9C2CDA699D80563DA9E83AAF560FF1BA /* Archive+ReadingDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE828FD9E1F1B05A272719648001664 /* Archive+ReadingDeprecated.swift */; };
+		A210EA884B450EAF931F017AE46780E4 /* Pods-pdfToWordTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54446C38F08B410C03146EB0275688D7 /* Pods-pdfToWordTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5F0AAEB79B7F9371B9DDF2B7F47D95E /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503247CFB3AB46FE27E589C74ADAF976 /* Entry.swift */; };
+		B41276D6865E0A584B8922ABE3C45376 /* ZIPFoundation-ZIPFoundation_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = CA4A114775B98CEA4A566C18123B145F /* ZIPFoundation-ZIPFoundation_Privacy */; };
+		B8459CA1EEEC60E068C596C19D476C02 /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F1C763A932000A94E688BA5C56C3F0 /* Data+Serialization.swift */; };
+		BB01CCA982D4BA9EB0F259F072FC3B17 /* Pods-pdfToWord-pdfToWordUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7004CE4493BDE29B3286A8367D75D804 /* Pods-pdfToWord-pdfToWordUITests-dummy.m */; };
+		C32400F474170351D8936F24C4D6BB37 /* Archive+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5372FA1668629C319865E31BA71C5 /* Archive+Writing.swift */; };
+		E63007C51F825847550FFC14D6888C6E /* Data+CompressionDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63AA7A27107444E4B9E6A5145E439C7 /* Data+CompressionDeprecated.swift */; };
+		ECE0F92BE1FA86CF7AC13134D03360EF /* Archive+WritingDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9598D1BE4DFBC6416FE907A310934C2B /* Archive+WritingDeprecated.swift */; };
+		F2F5B210270DF76F3A2AC33E50168EC2 /* Archive+Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EBE9600C9A3522C8850ACF218C2CF /* Archive+Deprecated.swift */; };
+		F46CAC652E1A597C97289777CF94CC35 /* Archive+Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41919FD07F95F0F53854B806DACFA74E /* Archive+Progress.swift */; };
+		FAE49F8EB7CB96276D102F8F9C8298B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F3B45ADCBCDE5B577DD0F891A8DAE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7A8D82E407CD3FDC3BA55CEE519B252;
+			remoteInfo = "ZIPFoundation-ZIPFoundation_Privacy";
+		};
+		BF91951DD29AA76DB01715D6FB06B2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA15C8469D67684160CC2A7098EB841C;
+			remoteInfo = ZIPFoundation;
+		};
+		C91FE445F7DA42AB5DE25E90BDAB65D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCD0A8BF1EF4AEC93B469C57F71B92A;
+			remoteInfo = "Pods-pdfToWord";
+		};
+		E90F4F1336A65CC6E470C4B2F697B33D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA15C8469D67684160CC2A7098EB841C;
+			remoteInfo = ZIPFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D9DB7DD896726ABFC970778599A591 /* Archive+MemoryFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+MemoryFile.swift"; path = "Sources/ZIPFoundation/Archive+MemoryFile.swift"; sourceTree = "<group>"; };
+		14F385630FCC52132CFF6DBD59514C1B /* Pods-pdfToWord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pdfToWord.release.xcconfig"; sourceTree = "<group>"; };
+		15A11DBC286CCD72F08ED399CCACB634 /* Pods-pdfToWordTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pdfToWordTests-dummy.m"; sourceTree = "<group>"; };
+		169C467908AD4C7FA1DC4AC8ED45ACDA /* Data+Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Compression.swift"; path = "Sources/ZIPFoundation/Data+Compression.swift"; sourceTree = "<group>"; };
+		1713466394334A8D628EED84C793A5A5 /* ZIPFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-prefix.pch"; sourceTree = "<group>"; };
+		1CA049EE4F1EA9C5FD0874D1665DE940 /* Archive+BackingConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+BackingConfiguration.swift"; path = "Sources/ZIPFoundation/Archive+BackingConfiguration.swift"; sourceTree = "<group>"; };
+		1E82C7E098FB1453DD3473242A9F2D5C /* Pods-pdfToWordTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pdfToWordTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1EE828FD9E1F1B05A272719648001664 /* Archive+ReadingDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+ReadingDeprecated.swift"; path = "Sources/ZIPFoundation/Archive+ReadingDeprecated.swift"; sourceTree = "<group>"; };
+		23840B8EA5425519334469204B83DA9B /* ZIPFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIPFoundation.release.xcconfig; sourceTree = "<group>"; };
+		2541BCEC487744BB0565059D05B6C597 /* ZIPFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZIPFoundation-Info.plist"; sourceTree = "<group>"; };
+		273CF0240CF046788706587B545CF205 /* ZIPFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZIPFoundation.modulemap; sourceTree = "<group>"; };
+		280938305230EE3530E670C9FAD9F7F6 /* ResourceBundle-ZIPFoundation_Privacy-ZIPFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZIPFoundation_Privacy-ZIPFoundation-Info.plist"; sourceTree = "<group>"; };
+		3479BF590B2A70C4E6FEFE5E57CDF6C0 /* Pods-pdfToWord-pdfToWordUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-pdfToWord-pdfToWordUITests"; path = Pods_pdfToWord_pdfToWordUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		371EBE9600C9A3522C8850ACF218C2CF /* Archive+Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Deprecated.swift"; path = "Sources/ZIPFoundation/Archive+Deprecated.swift"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		397749D3E01BC62C796E26BEADFBD559 /* Pods-pdfToWord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pdfToWord.debug.xcconfig"; sourceTree = "<group>"; };
+		3E291A87C19E4CA5811EF189D9F85CB1 /* ZIPFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZIPFoundation-dummy.m"; sourceTree = "<group>"; };
+		41919FD07F95F0F53854B806DACFA74E /* Archive+Progress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Progress.swift"; path = "Sources/ZIPFoundation/Archive+Progress.swift"; sourceTree = "<group>"; };
+		42F1C763A932000A94E688BA5C56C3F0 /* Data+Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Serialization.swift"; path = "Sources/ZIPFoundation/Data+Serialization.swift"; sourceTree = "<group>"; };
+		48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZIPFoundation; path = ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE14CB970E6EB6BF7A34A3CFA4A806C /* Pods-pdfToWord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pdfToWord-dummy.m"; sourceTree = "<group>"; };
+		503247CFB3AB46FE27E589C74ADAF976 /* Entry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entry.swift; path = Sources/ZIPFoundation/Entry.swift; sourceTree = "<group>"; };
+		51B70F0F563A3533C0BF5716C74A9702 /* Archive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Archive.swift; path = Sources/ZIPFoundation/Archive.swift; sourceTree = "<group>"; };
+		54446C38F08B410C03146EB0275688D7 /* Pods-pdfToWordTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pdfToWordTests-umbrella.h"; sourceTree = "<group>"; };
+		56CAF29D16DD8AA49A22929E948F5B19 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/ZIPFoundation/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		590B1A8F4D89CC5FA9C6CA52F047D423 /* Pods-pdfToWord-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pdfToWord-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C1AADB3DE7ADD14347355577BE91D9E /* Date+ZIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+ZIP.swift"; path = "Sources/ZIPFoundation/Date+ZIP.swift"; sourceTree = "<group>"; };
+		5D26503C6799C09E6F3ADB835A59F7E7 /* Pods-pdfToWord-pdfToWordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pdfToWord-pdfToWordUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E8526DEC9AAAB6B1556DFAD342853A6 /* URL+ZIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+ZIP.swift"; path = "Sources/ZIPFoundation/URL+ZIP.swift"; sourceTree = "<group>"; };
+		5F01B841C8529A4288DD0BA9E95EA697 /* Archive+Reading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Reading.swift"; path = "Sources/ZIPFoundation/Archive+Reading.swift"; sourceTree = "<group>"; };
+		6054187F0FC08CCEB0699BBA88444177 /* FileManager+ZIPDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+ZIPDeprecated.swift"; path = "Sources/ZIPFoundation/FileManager+ZIPDeprecated.swift"; sourceTree = "<group>"; };
+		61CE1295A926C8CCD1C7722A0623519E /* Pods-pdfToWordTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-pdfToWordTests.modulemap"; sourceTree = "<group>"; };
+		64C0B99762E25D9D9C61FC9AF49D739C /* Entry+Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Entry+Serialization.swift"; path = "Sources/ZIPFoundation/Entry+Serialization.swift"; sourceTree = "<group>"; };
+		67C001F95B27F0C930B72F755F931083 /* Pods-pdfToWord-pdfToWordUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-pdfToWord-pdfToWordUITests.modulemap"; sourceTree = "<group>"; };
+		6B161F9A55BF327B9F7021C3533E6F22 /* Archive+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Helpers.swift"; path = "Sources/ZIPFoundation/Archive+Helpers.swift"; sourceTree = "<group>"; };
+		6F3C8933D15B76A43605503A8C3C5EFD /* Entry+ZIP64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Entry+ZIP64.swift"; path = "Sources/ZIPFoundation/Entry+ZIP64.swift"; sourceTree = "<group>"; };
+		7004CE4493BDE29B3286A8367D75D804 /* Pods-pdfToWord-pdfToWordUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pdfToWord-pdfToWordUITests-dummy.m"; sourceTree = "<group>"; };
+		73FCB2D12E5246510195E436139DB8AA /* Archive+ZIP64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+ZIP64.swift"; path = "Sources/ZIPFoundation/Archive+ZIP64.swift"; sourceTree = "<group>"; };
+		78B6A840B6F2DA4245F1FAC2D88D16A7 /* Pods-pdfToWord-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pdfToWord-frameworks.sh"; sourceTree = "<group>"; };
+		78F21074A73F830E38CCABC9A874C2E7 /* Pods-pdfToWordTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pdfToWordTests-Info.plist"; sourceTree = "<group>"; };
+		7BC27ED66B94A6B66C35BA6007D3837A /* ZIPFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-umbrella.h"; sourceTree = "<group>"; };
+		7DE1D367FE30CA0E38D046D623789C54 /* Pods-pdfToWord-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pdfToWord-acknowledgements.plist"; sourceTree = "<group>"; };
+		86B94C0B83BB6B3983DBA451742C349A /* Pods-pdfToWord-pdfToWordUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pdfToWord-pdfToWordUITests-umbrella.h"; sourceTree = "<group>"; };
+		8BF5372FA1668629C319865E31BA71C5 /* Archive+Writing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Writing.swift"; path = "Sources/ZIPFoundation/Archive+Writing.swift"; sourceTree = "<group>"; };
+		9398A2D6B80383925A2A0A4964CD658A /* Pods-pdfToWordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pdfToWordTests.release.xcconfig"; sourceTree = "<group>"; };
+		9598D1BE4DFBC6416FE907A310934C2B /* Archive+WritingDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+WritingDeprecated.swift"; path = "Sources/ZIPFoundation/Archive+WritingDeprecated.swift"; sourceTree = "<group>"; };
+		97F1F347303A8029E9704D9174AE912B /* Pods-pdfToWord-pdfToWordUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pdfToWord-pdfToWordUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98DA30621C6508F0ED2C646C0476892F /* Pods-pdfToWord-pdfToWordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pdfToWord-pdfToWordUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D8E33B35DE1898DB383C066F045E790 /* Pods-pdfToWordTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pdfToWordTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD668AD75E051F8BB0148038E6DFC4E4 /* Pods-pdfToWord-pdfToWordUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pdfToWord-pdfToWordUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B29E722C656C7CB174F4AEF506D50077 /* Pods-pdfToWordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pdfToWordTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BABDCD3585744A373823807F0DD04551 /* Pods-pdfToWord */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-pdfToWord"; path = Pods_pdfToWord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C107C127DB04AC9FD8E862F20F318CC3 /* FileManager+ZIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+ZIP.swift"; path = "Sources/ZIPFoundation/FileManager+ZIP.swift"; sourceTree = "<group>"; };
+		CA4A114775B98CEA4A566C18123B145F /* ZIPFoundation-ZIPFoundation_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ZIPFoundation-ZIPFoundation_Privacy"; path = ZIPFoundation_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2D4CF741216E029B822609C3DAF7B5 /* ZIPFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIPFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		D557CB090106997B25979CC41D8CB322 /* Pods-pdfToWord-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pdfToWord-umbrella.h"; sourceTree = "<group>"; };
+		D59221F2781CF6FDBF79F386971FC957 /* Pods-pdfToWord-pdfToWordUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pdfToWord-pdfToWordUITests-Info.plist"; sourceTree = "<group>"; };
+		E294F822405423932838AFDE02BBD532 /* Pods-pdfToWord-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pdfToWord-Info.plist"; sourceTree = "<group>"; };
+		E9A9EC18D07E4336FAEFBE04CEBA3A9B /* Pods-pdfToWord-pdfToWordUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pdfToWord-pdfToWordUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF9A7BD94D0EAEDE39EDEE1BDE033AA9 /* Pods-pdfToWord.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-pdfToWord.modulemap"; sourceTree = "<group>"; };
+		F5919D1F178D806C216C331F67F21D55 /* Pods-pdfToWordTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-pdfToWordTests"; path = Pods_pdfToWordTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63AA7A27107444E4B9E6A5145E439C7 /* Data+CompressionDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+CompressionDeprecated.swift"; path = "Sources/ZIPFoundation/Data+CompressionDeprecated.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4850F999E3F1B9ED3FAC379F6AA3EBED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA7E26C5602923B0453E3BF8143C4D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53306E9795B8C36D018F0A2FAE7A6A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE49F8EB7CB96276D102F8F9C8298B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DAD40E331D18AA551C6B7AD75A2295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A7BC26865EE1AB2FA72FAE37BB946D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2334CF2903BCFD2EFDE8919F056CDE35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF70DB52B6A7CF4E2B3C71507F4BA6E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70528725801FF1FA378E9FB300671C8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038A0741EE66393142A363D0AAACF64A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56CAF29D16DD8AA49A22929E948F5B19 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		42FFEF55326B44DB9CE7D5ECED2076E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BABDCD3585744A373823807F0DD04551 /* Pods-pdfToWord */,
+				3479BF590B2A70C4E6FEFE5E57CDF6C0 /* Pods-pdfToWord-pdfToWordUITests */,
+				F5919D1F178D806C216C331F67F21D55 /* Pods-pdfToWordTests */,
+				48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation */,
+				CA4A114775B98CEA4A566C18123B145F /* ZIPFoundation-ZIPFoundation_Privacy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55B864D71D6D069B39D9B0B5669FAB23 /* Pods-pdfToWord-pdfToWordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67C001F95B27F0C930B72F755F931083 /* Pods-pdfToWord-pdfToWordUITests.modulemap */,
+				97F1F347303A8029E9704D9174AE912B /* Pods-pdfToWord-pdfToWordUITests-acknowledgements.markdown */,
+				E9A9EC18D07E4336FAEFBE04CEBA3A9B /* Pods-pdfToWord-pdfToWordUITests-acknowledgements.plist */,
+				7004CE4493BDE29B3286A8367D75D804 /* Pods-pdfToWord-pdfToWordUITests-dummy.m */,
+				AD668AD75E051F8BB0148038E6DFC4E4 /* Pods-pdfToWord-pdfToWordUITests-frameworks.sh */,
+				D59221F2781CF6FDBF79F386971FC957 /* Pods-pdfToWord-pdfToWordUITests-Info.plist */,
+				86B94C0B83BB6B3983DBA451742C349A /* Pods-pdfToWord-pdfToWordUITests-umbrella.h */,
+				5D26503C6799C09E6F3ADB835A59F7E7 /* Pods-pdfToWord-pdfToWordUITests.debug.xcconfig */,
+				98DA30621C6508F0ED2C646C0476892F /* Pods-pdfToWord-pdfToWordUITests.release.xcconfig */,
+			);
+			name = "Pods-pdfToWord-pdfToWordUITests";
+			path = "Target Support Files/Pods-pdfToWord-pdfToWordUITests";
+			sourceTree = "<group>";
+		};
+		7588E05AAFD41AEA45AE136CD3EC3A8F /* Pods-pdfToWord */ = {
+			isa = PBXGroup;
+			children = (
+				EF9A7BD94D0EAEDE39EDEE1BDE033AA9 /* Pods-pdfToWord.modulemap */,
+				590B1A8F4D89CC5FA9C6CA52F047D423 /* Pods-pdfToWord-acknowledgements.markdown */,
+				7DE1D367FE30CA0E38D046D623789C54 /* Pods-pdfToWord-acknowledgements.plist */,
+				4DE14CB970E6EB6BF7A34A3CFA4A806C /* Pods-pdfToWord-dummy.m */,
+				78B6A840B6F2DA4245F1FAC2D88D16A7 /* Pods-pdfToWord-frameworks.sh */,
+				E294F822405423932838AFDE02BBD532 /* Pods-pdfToWord-Info.plist */,
+				D557CB090106997B25979CC41D8CB322 /* Pods-pdfToWord-umbrella.h */,
+				397749D3E01BC62C796E26BEADFBD559 /* Pods-pdfToWord.debug.xcconfig */,
+				14F385630FCC52132CFF6DBD59514C1B /* Pods-pdfToWord.release.xcconfig */,
+			);
+			name = "Pods-pdfToWord";
+			path = "Target Support Files/Pods-pdfToWord";
+			sourceTree = "<group>";
+		};
+		7BB1F905BD332091E8B90E44C27B81BD /* Pods-pdfToWordTests */ = {
+			isa = PBXGroup;
+			children = (
+				61CE1295A926C8CCD1C7722A0623519E /* Pods-pdfToWordTests.modulemap */,
+				1E82C7E098FB1453DD3473242A9F2D5C /* Pods-pdfToWordTests-acknowledgements.markdown */,
+				9D8E33B35DE1898DB383C066F045E790 /* Pods-pdfToWordTests-acknowledgements.plist */,
+				15A11DBC286CCD72F08ED399CCACB634 /* Pods-pdfToWordTests-dummy.m */,
+				78F21074A73F830E38CCABC9A874C2E7 /* Pods-pdfToWordTests-Info.plist */,
+				54446C38F08B410C03146EB0275688D7 /* Pods-pdfToWordTests-umbrella.h */,
+				B29E722C656C7CB174F4AEF506D50077 /* Pods-pdfToWordTests.debug.xcconfig */,
+				9398A2D6B80383925A2A0A4964CD658A /* Pods-pdfToWordTests.release.xcconfig */,
+			);
+			name = "Pods-pdfToWordTests";
+			path = "Target Support Files/Pods-pdfToWordTests";
+			sourceTree = "<group>";
+		};
+		B3DC0D39979762090DBF9D2EA4670B7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				280938305230EE3530E670C9FAD9F7F6 /* ResourceBundle-ZIPFoundation_Privacy-ZIPFoundation-Info.plist */,
+				273CF0240CF046788706587B545CF205 /* ZIPFoundation.modulemap */,
+				3E291A87C19E4CA5811EF189D9F85CB1 /* ZIPFoundation-dummy.m */,
+				2541BCEC487744BB0565059D05B6C597 /* ZIPFoundation-Info.plist */,
+				1713466394334A8D628EED84C793A5A5 /* ZIPFoundation-prefix.pch */,
+				7BC27ED66B94A6B66C35BA6007D3837A /* ZIPFoundation-umbrella.h */,
+				CC2D4CF741216E029B822609C3DAF7B5 /* ZIPFoundation.debug.xcconfig */,
+				23840B8EA5425519334469204B83DA9B /* ZIPFoundation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZIPFoundation";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DAD5EB2976556966D50A1274FBAF3881 /* Pods */,
+				42FFEF55326B44DB9CE7D5ECED2076E3 /* Products */,
+				F13FF3D1420283D00F3399B8FD3E9E26 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAD5EB2976556966D50A1274FBAF3881 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E75A4AB92CCD7FA5AB97BC77DEDDD9F0 /* ZIPFoundation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E75A4AB92CCD7FA5AB97BC77DEDDD9F0 /* ZIPFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				51B70F0F563A3533C0BF5716C74A9702 /* Archive.swift */,
+				1CA049EE4F1EA9C5FD0874D1665DE940 /* Archive+BackingConfiguration.swift */,
+				371EBE9600C9A3522C8850ACF218C2CF /* Archive+Deprecated.swift */,
+				6B161F9A55BF327B9F7021C3533E6F22 /* Archive+Helpers.swift */,
+				00D9DB7DD896726ABFC970778599A591 /* Archive+MemoryFile.swift */,
+				41919FD07F95F0F53854B806DACFA74E /* Archive+Progress.swift */,
+				5F01B841C8529A4288DD0BA9E95EA697 /* Archive+Reading.swift */,
+				1EE828FD9E1F1B05A272719648001664 /* Archive+ReadingDeprecated.swift */,
+				8BF5372FA1668629C319865E31BA71C5 /* Archive+Writing.swift */,
+				9598D1BE4DFBC6416FE907A310934C2B /* Archive+WritingDeprecated.swift */,
+				73FCB2D12E5246510195E436139DB8AA /* Archive+ZIP64.swift */,
+				169C467908AD4C7FA1DC4AC8ED45ACDA /* Data+Compression.swift */,
+				F63AA7A27107444E4B9E6A5145E439C7 /* Data+CompressionDeprecated.swift */,
+				42F1C763A932000A94E688BA5C56C3F0 /* Data+Serialization.swift */,
+				5C1AADB3DE7ADD14347355577BE91D9E /* Date+ZIP.swift */,
+				503247CFB3AB46FE27E589C74ADAF976 /* Entry.swift */,
+				64C0B99762E25D9D9C61FC9AF49D739C /* Entry+Serialization.swift */,
+				6F3C8933D15B76A43605503A8C3C5EFD /* Entry+ZIP64.swift */,
+				C107C127DB04AC9FD8E862F20F318CC3 /* FileManager+ZIP.swift */,
+				6054187F0FC08CCEB0699BBA88444177 /* FileManager+ZIPDeprecated.swift */,
+				5E8526DEC9AAAB6B1556DFAD342853A6 /* URL+ZIP.swift */,
+				038A0741EE66393142A363D0AAACF64A /* Resources */,
+				B3DC0D39979762090DBF9D2EA4670B7B /* Support Files */,
+			);
+			name = ZIPFoundation;
+			path = ZIPFoundation;
+			sourceTree = "<group>";
+		};
+		F13FF3D1420283D00F3399B8FD3E9E26 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7588E05AAFD41AEA45AE136CD3EC3A8F /* Pods-pdfToWord */,
+				55B864D71D6D069B39D9B0B5669FAB23 /* Pods-pdfToWord-pdfToWordUITests */,
+				7BB1F905BD332091E8B90E44C27B81BD /* Pods-pdfToWordTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		013B38819F2C2D679D1460FBACA4735F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779C581697616D308DE475CDE9B01444 /* Pods-pdfToWord-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29653ED2247A160F73E2D8B782867176 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42149CEDD7020FBC14F82BFCF0A5C909 /* ZIPFoundation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35426C3558BC36247B4579078D922ACC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6727AADE121F212E0A725E4FACCD034A /* Pods-pdfToWord-pdfToWordUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7493CC4CC75740C97D046D9EC3412F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A210EA884B450EAF931F017AE46780E4 /* Pods-pdfToWordTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		772F5D7120158724D7EC5331E89214A9 /* Pods-pdfToWord-pdfToWordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D1F36148390039FEEADD083D53731B /* Build configuration list for PBXNativeTarget "Pods-pdfToWord-pdfToWordUITests" */;
+			buildPhases = (
+				35426C3558BC36247B4579078D922ACC /* Headers */,
+				D23DE971AE54A79B026B1ABFB69FC090 /* Sources */,
+				F0A7BC26865EE1AB2FA72FAE37BB946D /* Frameworks */,
+				F81C4A8D2D50C37726DB06FC6730258A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA375FCE51CE38BB3F4B51CDBC11EC44 /* PBXTargetDependency */,
+			);
+			name = "Pods-pdfToWord-pdfToWordUITests";
+			productName = Pods_pdfToWord_pdfToWordUITests;
+			productReference = 3479BF590B2A70C4E6FEFE5E57CDF6C0 /* Pods-pdfToWord-pdfToWordUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		93C5EC7F421DDB87966589CF57B8ABCA /* Pods-pdfToWordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F7A4857E02C8BC295C24448A7FF9E2 /* Build configuration list for PBXNativeTarget "Pods-pdfToWordTests" */;
+			buildPhases = (
+				EE7493CC4CC75740C97D046D9EC3412F /* Headers */,
+				7DA1DAF9D8BD705F9817544B113FCF01 /* Sources */,
+				FF70DB52B6A7CF4E2B3C71507F4BA6E7 /* Frameworks */,
+				98BE34C6BE95B1DC61038CE9406E88BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7B77EF3B67B8082F2B61F032F8D04EF /* PBXTargetDependency */,
+			);
+			name = "Pods-pdfToWordTests";
+			productName = Pods_pdfToWordTests;
+			productReference = F5919D1F178D806C216C331F67F21D55 /* Pods-pdfToWordTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7B9232B47DEC19AE541D1785D048A0 /* Build configuration list for PBXNativeTarget "ZIPFoundation" */;
+			buildPhases = (
+				29653ED2247A160F73E2D8B782867176 /* Headers */,
+				CC9388B329497E8254B578BC4C7D8CCA /* Sources */,
+				53306E9795B8C36D018F0A2FAE7A6A8B /* Frameworks */,
+				251BC897DA1CCA9221EE4FE3A698E2D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ACC37358B3E021E112DD2D97E252AE0 /* PBXTargetDependency */,
+			);
+			name = ZIPFoundation;
+			productName = ZIPFoundation;
+			productReference = 48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7A8D82E407CD3FDC3BA55CEE519B252 /* ZIPFoundation-ZIPFoundation_Privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE28F7D336856AD27D07FC7F3685A26 /* Build configuration list for PBXNativeTarget "ZIPFoundation-ZIPFoundation_Privacy" */;
+			buildPhases = (
+				FD3F382C8B1E87EBB4B0FDFB8ECDF61D /* Sources */,
+				70DAD40E331D18AA551C6B7AD75A2295 /* Frameworks */,
+				7FE61DB2F355E3F765515EC2EBACE6C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZIPFoundation-ZIPFoundation_Privacy";
+			productName = ZIPFoundation_Privacy;
+			productReference = CA4A114775B98CEA4A566C18123B145F /* ZIPFoundation-ZIPFoundation_Privacy */;
+			productType = "com.apple.product-type.bundle";
+		};
+		ECCD0A8BF1EF4AEC93B469C57F71B92A /* Pods-pdfToWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD2159327AF02CD985AB7D214489AEA /* Build configuration list for PBXNativeTarget "Pods-pdfToWord" */;
+			buildPhases = (
+				013B38819F2C2D679D1460FBACA4735F /* Headers */,
+				A97B39AA004F59A7109B77CAE21FB983 /* Sources */,
+				4850F999E3F1B9ED3FAC379F6AA3EBED /* Frameworks */,
+				82099B0587E44C4C33968FD7AE2E16D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C4CC2F38251E4E0EDC9EC4281E0A461 /* PBXTargetDependency */,
+			);
+			name = "Pods-pdfToWord";
+			productName = Pods_pdfToWord;
+			productReference = BABDCD3585744A373823807F0DD04551 /* Pods-pdfToWord */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 42FFEF55326B44DB9CE7D5ECED2076E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECCD0A8BF1EF4AEC93B469C57F71B92A /* Pods-pdfToWord */,
+				772F5D7120158724D7EC5331E89214A9 /* Pods-pdfToWord-pdfToWordUITests */,
+				93C5EC7F421DDB87966589CF57B8ABCA /* Pods-pdfToWordTests */,
+				AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */,
+				C7A8D82E407CD3FDC3BA55CEE519B252 /* ZIPFoundation-ZIPFoundation_Privacy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		251BC897DA1CCA9221EE4FE3A698E2D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41276D6865E0A584B8922ABE3C45376 /* ZIPFoundation-ZIPFoundation_Privacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE61DB2F355E3F765515EC2EBACE6C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C245F981B92EE4980437CB5B6C1F011 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82099B0587E44C4C33968FD7AE2E16D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98BE34C6BE95B1DC61038CE9406E88BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81C4A8D2D50C37726DB06FC6730258A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DA1DAF9D8BD705F9817544B113FCF01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947A2890672348E60E06501C7D04C614 /* Pods-pdfToWordTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97B39AA004F59A7109B77CAE21FB983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53881D9888F2FA8BDD9400B61B3E11B0 /* Pods-pdfToWord-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9388B329497E8254B578BC4C7D8CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C3C623717402D1643E29BCB1D75F71 /* Archive.swift in Sources */,
+				9AA1E2A66A84A0D5EF84E0B6160465EC /* Archive+BackingConfiguration.swift in Sources */,
+				F2F5B210270DF76F3A2AC33E50168EC2 /* Archive+Deprecated.swift in Sources */,
+				80AE3BF61AA2162772C664C77899D4FA /* Archive+Helpers.swift in Sources */,
+				867C2BE33C85E9B708AF4129CABDA419 /* Archive+MemoryFile.swift in Sources */,
+				F46CAC652E1A597C97289777CF94CC35 /* Archive+Progress.swift in Sources */,
+				49096CF50D9BE4C8FE6BA5F3D902B9C4 /* Archive+Reading.swift in Sources */,
+				9C2CDA699D80563DA9E83AAF560FF1BA /* Archive+ReadingDeprecated.swift in Sources */,
+				C32400F474170351D8936F24C4D6BB37 /* Archive+Writing.swift in Sources */,
+				ECE0F92BE1FA86CF7AC13134D03360EF /* Archive+WritingDeprecated.swift in Sources */,
+				21F2D71EB22BA5D259923A81A6A5D6AE /* Archive+ZIP64.swift in Sources */,
+				0388BDBD77962DE782679602D5EC7A49 /* Data+Compression.swift in Sources */,
+				E63007C51F825847550FFC14D6888C6E /* Data+CompressionDeprecated.swift in Sources */,
+				B8459CA1EEEC60E068C596C19D476C02 /* Data+Serialization.swift in Sources */,
+				05A4D0F106CAA2F3DCC96FC78B7A0F9C /* Date+ZIP.swift in Sources */,
+				A5F0AAEB79B7F9371B9DDF2B7F47D95E /* Entry.swift in Sources */,
+				7E7B0DD63549CD1CB50117A1D279CE40 /* Entry+Serialization.swift in Sources */,
+				51F8C5021BE9EB58D25B9AE911E7B8DD /* Entry+ZIP64.swift in Sources */,
+				2D217D4BCFD4F5301A9F05E16B6A2C49 /* FileManager+ZIP.swift in Sources */,
+				036846BA06C4336081147D93CC478D10 /* FileManager+ZIPDeprecated.swift in Sources */,
+				5058C9BA3625BF80A384C425E0611502 /* URL+ZIP.swift in Sources */,
+				6AF03D466F2C80C797CBFA247C738983 /* ZIPFoundation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23DE971AE54A79B026B1ABFB69FC090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB01CCA982D4BA9EB0F259F072FC3B17 /* Pods-pdfToWord-pdfToWordUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3F382C8B1E87EBB4B0FDFB8ECDF61D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ACC37358B3E021E112DD2D97E252AE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZIPFoundation-ZIPFoundation_Privacy";
+			target = C7A8D82E407CD3FDC3BA55CEE519B252 /* ZIPFoundation-ZIPFoundation_Privacy */;
+			targetProxy = 2F3B45ADCBCDE5B577DD0F891A8DAE64 /* PBXContainerItemProxy */;
+		};
+		9C4CC2F38251E4E0EDC9EC4281E0A461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZIPFoundation;
+			target = AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */;
+			targetProxy = BF91951DD29AA76DB01715D6FB06B2C3 /* PBXContainerItemProxy */;
+		};
+		A7B77EF3B67B8082F2B61F032F8D04EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-pdfToWord";
+			target = ECCD0A8BF1EF4AEC93B469C57F71B92A /* Pods-pdfToWord */;
+			targetProxy = C91FE445F7DA42AB5DE25E90BDAB65D9 /* PBXContainerItemProxy */;
+		};
+		DA375FCE51CE38BB3F4B51CDBC11EC44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZIPFoundation;
+			target = AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */;
+			targetProxy = E90F4F1336A65CC6E470C4B2F697B33D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		177E690254819D7ABE7EDA9AEA1F5D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23840B8EA5425519334469204B83DA9B /* ZIPFoundation.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZIPFoundation/ZIPFoundation-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation.modulemap";
+				PRODUCT_MODULE_NAME = ZIPFoundation;
+				PRODUCT_NAME = ZIPFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		278B3565ADA8B81F097FB4A5D29A30E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23840B8EA5425519334469204B83DA9B /* ZIPFoundation.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZIPFoundation";
+				IBSC_MODULE = ZIPFoundation;
+				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ResourceBundle-ZIPFoundation_Privacy-ZIPFoundation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = ZIPFoundation_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2CFA17BFD884CF50227EBA66F4392598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC2D4CF741216E029B822609C3DAF7B5 /* ZIPFoundation.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZIPFoundation/ZIPFoundation-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation.modulemap";
+				PRODUCT_MODULE_NAME = ZIPFoundation;
+				PRODUCT_NAME = ZIPFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		377416FB4ACEB0FE2A849CEA07F2BBA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14F385630FCC52132CFF6DBD59514C1B /* Pods-pdfToWord.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-pdfToWord/Pods-pdfToWord-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pdfToWord/Pods-pdfToWord.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F591C7A2D08F728C262ED7972A8AC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4864D035AF28C46EACA677EFFB9ECDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC2D4CF741216E029B822609C3DAF7B5 /* ZIPFoundation.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZIPFoundation";
+				IBSC_MODULE = ZIPFoundation;
+				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ResourceBundle-ZIPFoundation_Privacy-ZIPFoundation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = ZIPFoundation_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7CF836B93D55145762F6FEC329687797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29E722C656C7CB174F4AEF506D50077 /* Pods-pdfToWordTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-pdfToWordTests/Pods-pdfToWordTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pdfToWordTests/Pods-pdfToWordTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BC722D7760CE109CB571F3D6BB28BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D26503C6799C09E6F3ADB835A59F7E7 /* Pods-pdfToWord-pdfToWordUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-pdfToWord-pdfToWordUITests/Pods-pdfToWord-pdfToWordUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pdfToWord-pdfToWordUITests/Pods-pdfToWord-pdfToWordUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF2DAFDBFEBF65C54D7EAF7A69996546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397749D3E01BC62C796E26BEADFBD559 /* Pods-pdfToWord.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-pdfToWord/Pods-pdfToWord-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pdfToWord/Pods-pdfToWord.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5DFB3D3DD7155C9899FC567AD23BD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9398A2D6B80383925A2A0A4964CD658A /* Pods-pdfToWordTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-pdfToWordTests/Pods-pdfToWordTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pdfToWordTests/Pods-pdfToWordTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD0168E8D2AF1764F8D0AA1B7BA38957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E784BBAA87E6720EDF2989AF234A22AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DA30621C6508F0ED2C646C0476892F /* Pods-pdfToWord-pdfToWordUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-pdfToWord-pdfToWordUITests/Pods-pdfToWord-pdfToWordUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pdfToWord-pdfToWordUITests/Pods-pdfToWord-pdfToWordUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B7B9232B47DEC19AE541D1785D048A0 /* Build configuration list for PBXNativeTarget "ZIPFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFA17BFD884CF50227EBA66F4392598 /* Debug */,
+				177E690254819D7ABE7EDA9AEA1F5D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE28F7D336856AD27D07FC7F3685A26 /* Build configuration list for PBXNativeTarget "ZIPFoundation-ZIPFoundation_Privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4864D035AF28C46EACA677EFFB9ECDAC /* Debug */,
+				278B3565ADA8B81F097FB4A5D29A30E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0168E8D2AF1764F8D0AA1B7BA38957 /* Debug */,
+				3F591C7A2D08F728C262ED7972A8AC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D1F36148390039FEEADD083D53731B /* Build configuration list for PBXNativeTarget "Pods-pdfToWord-pdfToWordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC722D7760CE109CB571F3D6BB28BAB /* Debug */,
+				E784BBAA87E6720EDF2989AF234A22AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F7A4857E02C8BC295C24448A7FF9E2 /* Build configuration list for PBXNativeTarget "Pods-pdfToWordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF836B93D55145762F6FEC329687797 /* Debug */,
+				D5DFB3D3DD7155C9899FC567AD23BD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD2159327AF02CD985AB7D214489AEA /* Build configuration list for PBXNativeTarget "Pods-pdfToWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2DAFDBFEBF65C54D7EAF7A69996546 /* Debug */,
+				377416FB4ACEB0FE2A849CEA07F2BBA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
